@@ -67,7 +67,9 @@ def renderScoresMAGGIC(datas):
                           datas['DIAB'][i],
                           datas['COPD'][i],
                           (0 if datas['SMOKING'][i] < 1 else 1),
-                          str(WTH(datas['NYHA'][i]))
+                          str(WTH(datas['NYHA'][i])),
+                          datas['BET'][i],
+                          datas['ACE'][i]
                           )
 
         print("MAGGIC: " + res)
@@ -84,10 +86,10 @@ def renderScoresMAGGIC(datas):
     datas["MAGGIC"] = results
 
 
-def parseMAGGIC(driver, AGE, SEX, DIAB, COPD, SMOKE, NYHA):
+def parseMAGGIC(driver, AGE, SEX, DIAB, COPD, SMOKE, NYHA, BB, ACE):
     driver.refresh() #SO IT DOESNT KEEP ADDING DATA TO THE PAGE
 
-    if (AGE != "nan" and SEX != "nan" and DIAB != "nan" and SMOKE != "nan" and NYHA != "nan"):
+    if (AGE != "nan" and SEX != "nan" and DIAB != "nan" and SMOKE != "nan" and NYHA != "nan" and BB != "nan" and ACE != "nan"):
         driver.find_element_by_css_selector('#age').send_keys(AGE)
 
         #MUST CLICK BEFORE ENTERING GENDER STUPID DROPDOWN ANIMATIONS
@@ -105,7 +107,10 @@ def parseMAGGIC(driver, AGE, SEX, DIAB, COPD, SMOKE, NYHA):
 
         nyhaSel = Select(driver.find_element_by_css_selector('#nyha'))
         nyhaSel.select_by_value(NYHA)
-        print(NYHA)
+
+        driver.find_element_by_css_selector('#beta-blockers-yes' if BB else '#beta-blockers-no').click()
+        driver.find_element_by_css_selector('#ace-yes' if ACE else '#ace-no' ).click()
+        
 
 
 
