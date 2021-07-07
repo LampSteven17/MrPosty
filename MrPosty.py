@@ -45,7 +45,7 @@ def renderScoresGWTG(datas):
     results = []
 
 # NUMBER OF TIMES TO RUN, CHANGE ROWS TO SOME OTHER NUM FOR TESTS ##############
-    for i in range(12):
+    for i in range(rows):
         res = parseGWTG(driver, str(datas['BPSYS'][i]),
                                    str(datas['BUN'][i]),
                                    str(datas['SOD'][i]),
