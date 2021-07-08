@@ -24,11 +24,11 @@ def main():
 
     daty = getDataFromCsv()
 
-    #renderScoresGWTG(daty)
+    renderScoresGWTG(daty)
     renderScoresMAGGIC(daty)
 
     print(daty)
-    daty.to_csv("OUTFILE.csv")
+    daty.to_csv("OUTFILE.csv", index = False)
 
 def getDataFromCsv():
     frame = pd.read_csv(FILENAME, header = 0)
@@ -61,7 +61,7 @@ def renderScoresMAGGIC(datas):
     Y3 = []
 
 ############## CHANGE FROM ROWS IF NEEDED
-    for i in range(30):
+    for i in range(rows):
 
         res = parseMAGGIC(driver,
                           str(datas['Age'][i]),
@@ -179,7 +179,7 @@ def renderScoresGWTG(datas):
     results = []
 
 ################ NUMBER OF TIMES TO RUN, CHANGE ROWS TO SOME OTHER NUM FOR TESTS
-    for i in range(12):
+    for i in range(rows):
         res = parseGWTG(driver, str(datas['BPSYS'][i]),
                                    str(datas['BUN'][i]),
                                    str(datas['SOD'][i]),
