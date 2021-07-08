@@ -56,10 +56,12 @@ def renderScoresMAGGIC(datas):
 
 
     rows = datas.shape[0]
-    results = []
+    scores = []
+    Y1 = []
+    Y3 = []
 
 ############## CHANGE FROM ROWS IF NEEDED
-    for i in range(15):
+    for i in range(30):
 
         res = parseMAGGIC(driver,
                           str(datas['Age'][i]),
@@ -69,27 +71,41 @@ def renderScoresMAGGIC(datas):
                           (0 if datas['SMOKING'][i] < 1 else 1),
                           str(WTH(datas['NYHA'][i])),
                           datas['BET'][i],
-                          datas['ACE'][i]
+                          datas['ACE'][i],
+                          str(datas['EjF'][i]),
+                          str(datas['CRT'][i] * 88.4),
+                          str(datas['BPSYS'][i]),
+                          str(datas['BMI'][i])
                           )
 
-        print("MAGGIC: " + res)
+        print("MAGGIC: " + res[0] + " Y1: " + res[1] + " Y3: " + res[2])
 
-        results.append(res)
+        scores.append(res[0])
+        Y1.append(res[1])
+        Y3.append(res[2])
 
 
 
     #driver.quit()
-    if (len(results) != rows):
-        for i in range (rows - len(results)):
-            results.append("")
+    if (len(scores) != rows):
+        for i in range (rows - len(scores)):
+            scores.append("")
+            Y1.append("")
+            Y3.append("")
 
-    datas["MAGGIC"] = results
+    datas["MAGGIC"] = scores
+    datas["Y1"] = Y1
+    datas["Y3"] = Y3
 
 
-def parseMAGGIC(driver, AGE, SEX, DIAB, COPD, SMOKE, NYHA, BB, ACE):
+def parseMAGGIC(driver, AGE, SEX, DIAB, COPD, SMOKE, NYHA, BB, ACE, EJF, CRT, BPSYS, BMI):
     driver.refresh() #SO IT DOESNT KEEP ADDING DATA TO THE PAGE
 
-    if (AGE != "nan" and SEX != "nan" and DIAB != "nan" and SMOKE != "nan" and NYHA != "nan" and BB != "nan" and ACE != "nan"):
+    #this is lowkey a nightmare need to fix asp.
+    if (AGE != "nan" and SEX != "nan" and DIAB != "nan" and SMOKE != "nan"
+        and NYHA != "nan" and BB != "nan" and ACE != "nan" and EJF != "nan"
+        and CRT != "nan" and BPSYS != "nan" and BMI != "nan"):
+
         driver.find_element_by_css_selector('#age').send_keys(AGE)
 
         #MUST CLICK BEFORE ENTERING GENDER STUPID DROPDOWN ANIMATIONS
@@ -110,17 +126,43 @@ def parseMAGGIC(driver, AGE, SEX, DIAB, COPD, SMOKE, NYHA, BB, ACE):
 
         driver.find_element_by_css_selector('#beta-blockers-yes' if BB else '#beta-blockers-no').click()
         driver.find_element_by_css_selector('#ace-yes' if ACE else '#ace-no' ).click()
-        
+        driver.find_element_by_css_selector('#ejection-fraction').send_keys(EJF)
+        driver.find_element_by_css_selector('#creatinine').send_keys(CRT)
+        driver.find_element_by_css_selector('#bp').send_keys(BPSYS)
+        driver.find_element_by_css_selector('#bmi').send_keys(BMI)
+
+        return grabResultsMAGGIC(driver)
 
 
+    return ["","",""]
 
 
+def grabResultsMAGGIC(driver):
 
-    return ""
+    driver.find_element_by_css_selector('#calculate').click()
+
+    try:
+        waiter  = WebDriverWait(driver, 15).until( #TIMEOUT SET TO 15 SECONDS
+            ec.visibility_of_element_located(
+                (By.CSS_SELECTOR, '#score-result')
+            )
+        )
+
+        resulty = []
+        scoresToGrab = ['#score-result', '#risk-1-result', '#risk-3-result']
+
+        for score in scoresToGrab:
+            tempy = driver.find_element_by_css_selector(score)
+            r = re.sub("[^0-9\-\.]","",tempy.text)
+            resulty.append(r)
+
+        return resulty
 
 
-
-
+    except:
+        #TIMEOUT, WILL RETURN NOTHING EVEN IF SOMETHING EVENTUALLY LOADS
+        print("TIMEOUT")
+        return ["","",""]
 
 
 
