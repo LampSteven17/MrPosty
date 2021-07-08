@@ -19,22 +19,27 @@ FILENAME = "ESCAPEAllDataSingleValue.csv"
 
 GWTG = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
 MAGGIC = "http://www.heartfailurerisk.org/"
+SHF = "https://depts.washington.edu/shfm/app.php"
 
 def main():
 
     daty = getDataFromCsv()
 
-    renderScoresGWTG(daty)
-    renderScoresMAGGIC(daty)
+    #renderScoresGWTG(daty)
+    #renderScoresMAGGIC(daty)
+    renderScoresSHF(daty)
 
     print(daty)
-    daty.to_csv("OUTFILE.csv", index = False)
+    daty.to_csv("OUTFILE.csv", index = False)#SO IT DOESNT PRINT A COULMN WITH 1-8000
 
 def getDataFromCsv():
     frame = pd.read_csv(FILENAME, header = 0)
     return frame.replace(r'^\s*$', np.nan, regex=True)
 
-
+############################## SHF #############################################
+def renderScoresSHF(datas):
+    driver = webdriver.Firefox() #SWITCH TO: Chrome() IF NEEDED
+    driver.get(SHF)
 
 
 
@@ -86,7 +91,7 @@ def renderScoresMAGGIC(datas):
 
 
 
-    #driver.quit()
+    driver.quit()
     if (len(scores) != rows):
         for i in range (rows - len(scores)):
             scores.append("")
