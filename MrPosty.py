@@ -12,6 +12,8 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import Select
+import os
+from ahk import AHK as ahk
 
 # PUT NAME OF FILE HERE ########################################################
 FILENAME = "ESCAPEAllDataSingleValue.csv"
@@ -37,9 +39,59 @@ def getDataFromCsv():
     return frame.replace(r'^\s*$', np.nan, regex=True)
 
 ############################## SHF #############################################
+
 def renderScoresSHF(datas):
-    driver = webdriver.Firefox() #SWITCH TO: Chrome() IF NEEDED
-    driver.get(SHF)
+    os.startfile("C:/Program Files (x86)/University of Washington/SHFM.exe")
+
+    rows = datas.shape[0]
+    SHF1 = []
+    SHF2 = []
+    SHF5 = []
+
+############## CHANGE FROM ROWS IF NEEDED
+    for i in range(15):
+
+        res = parseSHF(
+                      (datas['Gender'][i] - 1)
+
+
+
+
+                      )
+
+        print("SHF1: " + res[0] + " SHF2: " + res[1] + " SHF5: " + res[2])
+
+        SHF1.append(res[0])
+        SHF2.append(res[1])
+        SHF5.append(res[2])
+
+
+
+    driver.quit()
+    if (len(SHF1) != rows):
+        for i in range (rows - len(SHF1)):
+            SHF1.append("")
+            SHF2.append("")
+            SHF5.append("")
+
+    datas["SHF1"] = SHF1
+    datas["SHF2"] = SHF2
+    datas["SHF5"] = SHF5
+
+def parseSHF(SEX):
+
+
+
+
+
+
+
+
+
+
+
+    return ["","",""]
+
 
 
 
