@@ -69,7 +69,11 @@ def renderScoresSHF(datas):
                       str(datas['Torsemide'][i]),
                       str(datas['HGB'][i]),
                       str(datas['WBC'][i]),
-                      str(datas['URIC'][i])
+                      str(datas['URIC'][i]),
+                      str(datas['TOTChol'][i]),
+                      str(datas['SOD'][i]),
+                      datas['PACE'][i]
+
 
 
 
@@ -105,7 +109,7 @@ def switchNYHA(x):
         4: 563
     }.get(x, 563)
 
-def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM, URIC):
+def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM, URIC, CHOL, SOD, PACE):
     AGE=nanCheck(AGE) #WHYYYYYYYYYYY FIX THIS DEAR HEAVENS
     SEX=nanCheck(SEX)
     NYHA=nanCheck(NYHA)
@@ -121,8 +125,11 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
     HGB=nanCheck(HGB)
     LYM=nanCheck(LYM)
     URIC=nanCheck(URIC)
+    CHOL=nanCheck(CHOL)
+    SOD=nanCheck(SOD)
+    PACE=nanCheck(PACE)
 
-    print(LYM)
+    print(PACE)
 
 
     ahk.click(939, 648) #RESETS EVERYTHING TO DEFAULTS
@@ -169,6 +176,18 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
 
     ahk.double_click(851, 403)
     ahk.type(LYM)
+
+    ahk.double_click(848, 441)
+    ahk.type(URIC)
+
+    ahk.double_click(857, 481)
+    ahk.type(CHOL)
+
+    ahk.double_click(857, 481)
+    ahk.type(SOD)
+
+    if PACE:
+        ahk.click(949,397)
 
 
 
