@@ -21,7 +21,9 @@ FILENAME = "ESCAPEAllDataSingleValue.csv"
 
 GWTG = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
 MAGGIC = "http://www.heartfailurerisk.org/"
-SHF = "https://depts.washington.edu/shfm/app.php"
+SHF = "C:/Program Files (x86)/University of Washington/SHFM/SHFM.exe"
+ahk = ahk(executable_path='C:/Program Files/AutoHotkey/AutoHotkey.exe')
+
 
 def main():
 
@@ -41,7 +43,9 @@ def getDataFromCsv():
 ############################## SHF #############################################
 
 def renderScoresSHF(datas):
-    os.startfile("C:/Program Files (x86)/University of Washington/SHFM.exe")
+    os.startfile(SHF)
+
+    win = ahk.find_window(title=b'Seattle Heart Failure Model Calculator')
 
     rows = datas.shape[0]
     SHF1 = []
@@ -49,10 +53,9 @@ def renderScoresSHF(datas):
     SHF5 = []
 
 ############## CHANGE FROM ROWS IF NEEDED
-    for i in range(15):
+    for i in range(5):
 
-        res = parseSHF(
-                      (datas['Gender'][i] - 1)
+        res = parseSHF(str(datas['Age'][i])
 
 
 
@@ -67,7 +70,6 @@ def renderScoresSHF(datas):
 
 
 
-    driver.quit()
     if (len(SHF1) != rows):
         for i in range (rows - len(SHF1)):
             SHF1.append("")
@@ -78,8 +80,14 @@ def renderScoresSHF(datas):
     datas["SHF2"] = SHF2
     datas["SHF5"] = SHF5
 
-def parseSHF(SEX):
+def parseSHF(AGE):
 
+
+    if (AGE != "nan"):
+        print("balls")
+        ahk.double_click(160, 356)
+        ahk.send_keys(AGE)
+        #ahk.run_script("Run MrScripty.ahk", blocking=False)
 
 
 
