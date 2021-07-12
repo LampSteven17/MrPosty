@@ -16,7 +16,7 @@ import os
 from ahk import AHK as ahk
 
 # PUT NAME OF FILE HERE ########################################################
-FILENAME = "ESCAPEAllDataSingleValue.csv"
+FILENAME = "AllDataBEST.csv"
 ################################################################################
 
 GWTG = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
@@ -53,9 +53,23 @@ def renderScoresSHF(datas):
     SHF5 = []
 
 ############## CHANGE FROM ROWS IF NEEDED
-    for i in range(5):
+    for i in range(10):
 
-        res = parseSHF(str(datas['Age'][i])
+        res = parseSHF(str(datas['Age'][i]),
+                      (datas['Gender'][i] - 1),
+                      int(datas['NYHA'][i]),
+                      str(datas['Wt'][i]),
+                      str(datas['EjF'][i]),
+                      str(datas['BPSYS'][i]),
+                      datas['ISCH'][i],
+                      datas['ACE'][i],
+                      datas['BET'][i],
+                      str(datas['FurosemideDse'][i]),
+                      str(datas['Bumetanide'][i]),
+                      str(datas['Torsemide'][i]),
+                      str(datas['HGB'][i]),
+                      str(datas['WBC'][i]),
+                      str(datas['URIC'][i])
 
 
 
@@ -80,14 +94,89 @@ def renderScoresSHF(datas):
     datas["SHF2"] = SHF2
     datas["SHF5"] = SHF5
 
-def parseSHF(AGE):
+def nanCheck(var):
+    return var if var != "nan" else ""
+
+def switchNYHA(x):
+    return {
+        1: 468,
+        2: 487,
+        3: 523,
+        4: 563
+    }.get(x, 563)
+
+def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM, URIC):
+    AGE=nanCheck(AGE) #WHYYYYYYYYYYY FIX THIS DEAR HEAVENS
+    SEX=nanCheck(SEX)
+    NYHA=nanCheck(NYHA)
+    WT=nanCheck(WT)
+    EF=nanCheck(EF)
+    BP=nanCheck(BP)
+    ISCH=nanCheck(ISCH)
+    ACE=nanCheck(ACE)
+    BET=nanCheck(BET)
+    FUR=nanCheck(FUR)
+    BUM=nanCheck(BUM)
+    TOR=nanCheck(TOR)
+    HGB=nanCheck(HGB)
+    LYM=nanCheck(LYM)
+    URIC=nanCheck(URIC)
+
+    print(LYM)
 
 
-    if (AGE != "nan"):
-        print("balls")
-        ahk.double_click(160, 356)
-        ahk.send_keys(AGE)
-        #ahk.run_script("Run MrScripty.ahk", blocking=False)
+    ahk.click(939, 648) #RESETS EVERYTHING TO DEFAULTS
+
+
+    ahk.double_click(160, 356)
+    ahk.type(AGE)
+
+    ahk.click(189, 403)
+    ahk.click(175, (442 if SEX else 426))
+
+    ahk.click(189,439)
+    ahk.click(172,switchNYHA(NYHA))
+
+    ahk.double_click(163, 483)
+    ahk.type(WT)
+
+    ahk.double_click(170, 521)
+    ahk.type(EF)
+
+    ahk.double_click(167, 561)
+    ahk.type(BP)
+
+    if not ISCH:
+        ahk.click(47, 607)
+
+    if not ACE:
+        ahk.click(249, 355)
+
+    if BET:
+        ahk.click(249,401)
+
+    ahk.double_click(557, 355)
+    ahk.type(FUR)
+
+    ahk.double_click(550, 400)
+    ahk.type(BUM)
+
+    ahk.double_click(554, 443)
+    ahk.type(TOR)
+
+    ahk.double_click(858,360)
+    ahk.type(HGB)
+
+    ahk.double_click(851, 403)
+    ahk.type(LYM)
+
+
+
+
+
+
+
+
 
 
 
