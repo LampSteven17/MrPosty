@@ -72,11 +72,8 @@ def renderScoresSHF(datas):
                       str(datas['URIC'][i]),
                       str(datas['TOTChol'][i]),
                       str(datas['SOD'][i]),
-                      datas['PACE'][i]
-
-
-
-
+                      datas['PACE'][i],
+                      datas['ICD'][i]
 
                       )
 
@@ -109,7 +106,7 @@ def switchNYHA(x):
         4: 563
     }.get(x, 563)
 
-def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM, URIC, CHOL, SOD, PACE):
+def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM, URIC, CHOL, SOD, PACE, ICD):
     AGE=nanCheck(AGE) #WHYYYYYYYYYYY FIX THIS DEAR HEAVENS
     SEX=nanCheck(SEX)
     NYHA=nanCheck(NYHA)
@@ -189,13 +186,8 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
     if PACE:
         ahk.click(949,397)
 
-
-
-
-
-
-
-
+    if ICD:
+        ahk.click(949,440)
 
 
 
