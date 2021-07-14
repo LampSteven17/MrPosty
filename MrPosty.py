@@ -15,7 +15,13 @@ from selenium.webdriver.support.ui import Select
 import os
 from ahk import AHK as ahk
 from ahk.window import Window
-from tkinter import Tk
+import pyperclip
+import pyscreenshot as ps
+import pytesseract
+from PIL import Image
+import cv2
+
+CONFIG = 'outputbase digys'
 
 # PUT NAME OF FILE HERE ########################################################
 FILENAME = "AllDataBEST.csv"
@@ -25,12 +31,10 @@ GWTG = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
 MAGGIC = "http://www.heartfailurerisk.org/"
 SHF = "C:/Program Files (x86)/University of Washington/SHFM/SHFM.exe"
 ahk = ahk(executable_path='C:/Program Files/AutoHotkey/AutoHotkey.exe')
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 
 def main():
-
-    input("PRESS ENTER TO START PROGRAM")
-    time.sleep(2)
 
     daty = getDataFromCsv()
 
@@ -47,10 +51,10 @@ def getDataFromCsv():
     frame = pd.read_csv(FILENAME, header = 0)
     return frame.replace(r'^\s*$', np.nan, regex=True)
 
-############################## SHF #############################################
 
+############################## SHF #############################################
 def renderScoresSHF(datas):
-    #os.startfile(SHF)
+    os.startfile(SHF)
 
     rows = datas.shape[0]
     SHF1 = []
@@ -58,9 +62,8 @@ def renderScoresSHF(datas):
     SHF5 = []
 
 ############## CHANGE FROM ROWS IF NEEDED
-    for i in range(5):
-        #win = ahk.find_window(title=b'Seattle Heart Failure Model Calculator')
-        #win.activate()
+    for i in range(20):
+        win = ahk.find_window(title=b'Seattle Heart Failure Model Calculator')
 
         res = parseSHF(str(datas['Age'][i]),
                       (datas['Gender'][i] - 1),
@@ -91,7 +94,7 @@ def renderScoresSHF(datas):
         SHF5.append(res[2])
 
 
-
+    driver.quit()
     if (len(SHF1) != rows):
         for i in range (rows - len(SHF1)):
             SHF1.append("")
@@ -134,8 +137,6 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
     PACE=nanCheck(PACE)
     ICD=nanCheck(ICD)
 
-    return grabResultsSHF()
-"""
     ahk.click(939, 648) #RESETS EVERYTHING TO DEFAULTS
 
 
@@ -197,25 +198,43 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
         ahk.click(949,440)
 
     return grabResultsSHF()
-"""
+
 def grabResultsSHF():
-    ahk.click(1280,600)
-    win = Window.from_mouse_position(ahk)
 
-    #win = ahk.find_window(title=b'Cheat Engine 7.2')
-    win.activate()
+    cords = [[156,200,204,235],[229,200,277,235],[302,200,350,235]]
+    results=[]
 
-    ahk.double_click(1421,603)
-    ahk.double_click(741,548)
+    for i in range(3):
 
-    ahk.send('^c')
+        shot = ps.grab(bbox=cords[i])
+        shot.save("results.png")
 
-    ahk.click(1182,489)
 
-    rawXML = Tk().clipboard_get()
-    print(win.text)
 
-    return["","",""]
+        img = cv2.imread('results.png')
+        scale = 2
+        img = cv2.resize(img, (img.shape[1]*scale,img.shape[0]*scale), interpolation=cv2.INTER_AREA)
+
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+        kernel = np.ones((3,3), np.uint8)
+
+
+        CONFIG = '--oem 3 --psm 7 -c tessedit_char_whitelist=0123456789%'
+
+        #SEE THE IMAGE IT CREATES
+        #cv2.imshow('FIXED', img)
+        #cv2.waitKey(0)
+
+        cv2.imwrite("results.png", img)
+
+        var = pytesseract.image_to_string(Image.open('results.png'),config=CONFIG)
+
+        results.append(re.sub("[^0-9\-\.]","",var))
+
+
+    #print("Y1: " + results[0] + " Y2: " + results[1] + " Y3: " + results[2])
+    return results
 
 
 ############################# MAGGIC ###########################################
