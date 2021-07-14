@@ -14,6 +14,8 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import Select
 import os
 from ahk import AHK as ahk
+from ahk.window import Window
+from tkinter import Tk
 
 # PUT NAME OF FILE HERE ########################################################
 FILENAME = "AllDataBEST.csv"
@@ -27,10 +29,15 @@ ahk = ahk(executable_path='C:/Program Files/AutoHotkey/AutoHotkey.exe')
 
 def main():
 
+    input("PRESS ENTER TO START PROGRAM")
+    time.sleep(2)
+
     daty = getDataFromCsv()
 
     #renderScoresGWTG(daty)
     #renderScoresMAGGIC(daty)
+
+
     renderScoresSHF(daty)
 
     print(daty)
@@ -43,9 +50,7 @@ def getDataFromCsv():
 ############################## SHF #############################################
 
 def renderScoresSHF(datas):
-    os.startfile(SHF)
-
-    win = ahk.find_window(title=b'Seattle Heart Failure Model Calculator')
+    #os.startfile(SHF)
 
     rows = datas.shape[0]
     SHF1 = []
@@ -53,7 +58,9 @@ def renderScoresSHF(datas):
     SHF5 = []
 
 ############## CHANGE FROM ROWS IF NEEDED
-    for i in range(10):
+    for i in range(5):
+        #win = ahk.find_window(title=b'Seattle Heart Failure Model Calculator')
+        #win.activate()
 
         res = parseSHF(str(datas['Age'][i]),
                       (datas['Gender'][i] - 1),
@@ -125,10 +132,10 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
     CHOL=nanCheck(CHOL)
     SOD=nanCheck(SOD)
     PACE=nanCheck(PACE)
+    ICD=nanCheck(ICD)
 
-    print(PACE)
-
-
+    return grabResultsSHF()
+"""
     ahk.click(939, 648) #RESETS EVERYTHING TO DEFAULTS
 
 
@@ -189,18 +196,26 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
     if ICD:
         ahk.click(949,440)
 
+    return grabResultsSHF()
+"""
+def grabResultsSHF():
+    ahk.click(1280,600)
+    win = Window.from_mouse_position(ahk)
 
+    #win = ahk.find_window(title=b'Cheat Engine 7.2')
+    win.activate()
 
+    ahk.double_click(1421,603)
+    ahk.double_click(741,548)
 
+    ahk.send('^c')
 
+    ahk.click(1182,489)
 
+    rawXML = Tk().clipboard_get()
+    print(win.text)
 
-
-
-
-    return ["","",""]
-
-
+    return["","",""]
 
 
 ############################# MAGGIC ###########################################
