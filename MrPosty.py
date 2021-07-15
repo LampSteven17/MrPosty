@@ -62,7 +62,7 @@ def renderScoresSHF(datas):
     SHF5 = []
 
 ############## CHANGE FROM ROWS IF NEEDED
-    for i in range(20):
+    for i in range(rows):
         win = ahk.find_window(title=b'Seattle Heart Failure Model Calculator')
 
         res = parseSHF(str(datas['Age'][i]),
@@ -94,7 +94,7 @@ def renderScoresSHF(datas):
         SHF5.append(res[2])
 
 
-    driver.quit()
+
     if (len(SHF1) != rows):
         for i in range (rows - len(SHF1)):
             SHF1.append("")
