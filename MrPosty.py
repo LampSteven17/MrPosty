@@ -24,7 +24,7 @@ import cv2
 CONFIG = 'outputbase digys'
 
 # PUT NAME OF FILE HERE ########################################################
-FILENAME = "AllDataBEST.csv"
+FILENAME = "GUIDEAllDataSingleValue.csv"
 ################################################################################
 
 GWTG = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
@@ -61,13 +61,14 @@ def renderScoresSHF(datas):
     SHF2 = []
     SHF5 = []
 
+
 ############## CHANGE FROM ROWS IF NEEDED
     for i in range(rows):
         win = ahk.find_window(title=b'Seattle Heart Failure Model Calculator')
 
         res = parseSHF(str(datas['Age'][i]),
                       (datas['Gender'][i] - 1),
-                      int(datas['NYHA'][i]),
+                      int(floatNan(datas['NYHA'][i])),
                       str(datas['Wt'][i]),
                       str(datas['EjF'][i]),
                       str(datas['BPSYS'][i]),
@@ -107,6 +108,9 @@ def renderScoresSHF(datas):
 
 def nanCheck(var):
     return var if var != "nan" else ""
+
+def floatNan(var):
+    return 0 if np.isnan(var) else var
 
 def switchNYHA(x):
     return {
