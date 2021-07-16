@@ -24,7 +24,7 @@ import cv2
 CONFIG = 'outputbase digys'
 
 # PUT NAME OF FILE HERE ########################################################
-FILENAME = "ESCAPEAllDataSingleValue.csv"
+FILENAME = "SerialCardiac_AllData.csv"
 ################################################################################
 
 GWTG = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
