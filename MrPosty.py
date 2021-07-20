@@ -23,26 +23,42 @@ import cv2
 
 CONFIG = 'outputbase digys'
 
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 # PUT NAME OF FILE HERE ########################################################
 FILENAME = "SerialCardiac_AllData.csv"
 ################################################################################
 
+# PUT SHF EXECUTABLE LOCATION HERE #############################################
+SHF = "C:/Program Files (x86)/University of Washington/SHFM/SHFM.exe"
+################################################################################
+
+# PUT AHK EXECUTABLE HERE ######################################################
+ahk = ahk(executable_path='C:/Program Files/AutoHotkey/AutoHotkey.exe')
+################################################################################
+
+# PUT PYTESSERACT EXECUTABLE HERE ##############################################
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+################################################################################
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+
+
 GWTG = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
 MAGGIC = "http://www.heartfailurerisk.org/"
-SHF = "C:/Program Files (x86)/University of Washington/SHFM/SHFM.exe"
-ahk = ahk(executable_path='C:/Program Files/AutoHotkey/AutoHotkey.exe')
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
 
 def main():
 
     daty = getDataFromCsv()
 
-    #renderScoresGWTG(daty)
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+#####UNCOMMENT FOR GWTG#########################################################
+    renderScoresGWTG(daty) # DEFAULT SET TO RUN ON GWTG
+
+#####UNCOMMENT FOR MAGGIC#######################################################
     #renderScoresMAGGIC(daty)
 
-
-    renderScoresSHF(daty)
+#####UNCOMMENT FOR SHF##########################################################
+    #renderScoresSHF(daty) #extra touchy
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 
     print(daty)
     daty.to_csv("OUTFILE.csv", index = False)#SO IT DOESNT PRINT A COULMN WITH 1-8000
@@ -141,6 +157,8 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
     PACE=nanCheck(PACE)
     ICD=nanCheck(ICD)
 
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+# PIXEL ADJUSMENTS FOR SHF, ADJUST NUMBERS BELOW IF NOT CLICKING RIGHT AREAS ###
     ahk.click(939, 648) #RESETS EVERYTHING TO DEFAULTS
 
 
@@ -200,12 +218,16 @@ def parseSHF(AGE, SEX, NYHA, WT, EF, BP, ISCH, ACE, BET, FUR, BUM, TOR, HGB, LYM
 
     if ICD:
         ahk.click(949,440)
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 
     return grabResultsSHF()
 
 def grabResultsSHF():
 
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+#MORE PIXEL ADJUSTMENTS -> X1,Y1,X2,Y2 TO FORM BOX AROUND RESULTS TO GRAB IMAGE
     cords = [[156,200,204,235],[229,200,277,235],[302,200,350,235]]
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
     results=[]
 
     for i in range(3):
