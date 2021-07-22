@@ -12,6 +12,12 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import Select
+
+import GWTG
+
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+# UNCOMMENT FOR SHF APPPLICATION ###############################################
+"""
 import os
 from ahk import AHK as ahk
 from ahk.window import Window
@@ -20,13 +26,6 @@ import pyscreenshot as ps
 import pytesseract
 from PIL import Image
 import cv2
-
-CONFIG = 'outputbase digys'
-
-# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
-# PUT NAME OF FILE HERE ########################################################
-FILENAME = "SerialCardiac_AllData.csv"
-################################################################################
 
 # PUT SHF EXECUTABLE LOCATION HERE #############################################
 SHF = "C:/Program Files (x86)/University of Washington/SHFM/SHFM.exe"
@@ -39,11 +38,29 @@ ahk = ahk(executable_path='C:/Program Files/AutoHotkey/AutoHotkey.exe')
 # PUT PYTESSERACT EXECUTABLE HERE ##############################################
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 ################################################################################
+"""
+
+
+
+CONFIG = 'outputbase digys'
+
+# ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+# PUT NAME OF FILE HERE ########################################################
+FILENAME = "ESCAPEAllDataSingleValue.csv"
+################################################################################
+
+# PUT DRIVER FOR BOWSER ON COMPUTER HERE #######################################
+# FIREFOX (DEFAULT INCLUDED IN REPO)
+DRIVER = webdriver.Firefox() #DRIVER = webdriver.Firefox(executable_path=r'\my\path\to\geckodriver')
+# CHOOSE ONLY 1, FIREFOX OR CHROME
+# CHROME
+#DRIVER = webdriver.Chrome(executable_path=r'\my\path\to\chromedriver')
+################################################################################
 # ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 
 
-GWTG = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
-MAGGIC = "http://www.heartfailurerisk.org/"
+gwtgURL = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
+maggicURL = "http://www.heartfailurerisk.org/"
 
 def main():
 
@@ -51,7 +68,7 @@ def main():
 
 # ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 #####UNCOMMENT FOR GWTG#########################################################
-    renderScoresGWTG(daty) # DEFAULT SET TO RUN ON GWTG
+    GWTG.renderScores(DRIVER, daty, gwtgURL) # DEFAULT SET TO RUN ON GWTG
 
 #####UNCOMMENT FOR MAGGIC#######################################################
     #renderScoresMAGGIC(daty)
@@ -68,6 +85,139 @@ def getDataFromCsv():
     return frame.replace(r'^\s*$', np.nan, regex=True)
 
 
+################################################################################
+################################################################################
+############################# MAGGIC ###########################################
+def WTH(x):
+    return {
+        1: 0,
+        2: 2,
+        3: 6,
+        4: 8
+    }.get(x, 0)
+
+def renderScoresMAGGIC(datas):
+    driver = webdriver.Firefox() #SWITCH TO: Chrome() IF NEEDED
+    driver.get(MAGGIC)
+
+    #CLICK THE ACCEPT BUTTON: #accept-terms
+    driver.find_element_by_css_selector('#accept-terms').click()
+
+
+    rows = datas.shape[0]
+    scores = []
+    Y1 = []
+    Y3 = []
+
+############## CHANGE FROM ROWS IF NEEDED
+    for i in range(rows):
+
+        res = parseMAGGIC(driver,
+                          str(datas['Age'][i]),
+                          (datas['Gender'][i] - 1),
+                          datas['DIAB'][i],
+                          datas['COPD'][i],
+                          (0 if datas['SMOKING'][i] < 1 else 1),
+                          str(WTH(datas['NYHA'][i])),
+                          datas['BET'][i],
+                          datas['ACE'][i],
+                          str(datas['EjF'][i]),
+                          str(datas['CRT'][i] * 88.4),
+                          str(datas['BPSYS'][i]),
+                          str(datas['BMI'][i])
+                          )
+
+        print("MAGGIC: " + res[0] + " Y1: " + res[1] + " Y3: " + res[2])
+
+        scores.append(res[0])
+        Y1.append(res[1])
+        Y3.append(res[2])
+
+
+
+    driver.quit()
+    if (len(scores) != rows):
+        for i in range (rows - len(scores)):
+            scores.append("")
+            Y1.append("")
+            Y3.append("")
+
+    datas["MAGGIC"] = scores
+    datas["Y1"] = Y1
+    datas["Y3"] = Y3
+
+
+def parseMAGGIC(driver, AGE, SEX, DIAB, COPD, SMOKE, NYHA, BB, ACE, EJF, CRT, BPSYS, BMI):
+    driver.refresh() #SO IT DOESNT KEEP ADDING DATA TO THE PAGE
+
+    #this is lowkey a nightmare need to fix asp.
+    if (AGE != "nan" and SEX != "nan" and DIAB != "nan" and SMOKE != "nan"
+        and NYHA != "nan" and BB != "nan" and ACE != "nan" and EJF != "nan"
+        and CRT != "nan" and BPSYS != "nan" and BMI != "nan"):
+
+        driver.find_element_by_css_selector('#age').send_keys(AGE)
+
+        #MUST CLICK BEFORE ENTERING GENDER STUPID DROPDOWN ANIMATIONS
+        driver.find_element_by_css_selector('#diabetic-yes' if DIAB else '#diabetic-no').click()
+        time.sleep(.25)
+
+        sexy = Select(driver.find_element_by_css_selector('#gender'))
+        sexy.select_by_value('1' if SEX else '0')
+
+        driver.find_element_by_css_selector('#copd-yes' if COPD else '#copd-no').click()
+        ########## ALL YESS SINCE NO CLOUMN IN DATA #####################
+        driver.find_element_by_css_selector('#heart-failure-yes').click()
+        #################################################################
+        driver.find_element_by_css_selector('#smoker-yes' if SMOKE else '#smoker-no' ).click()
+
+        nyhaSel = Select(driver.find_element_by_css_selector('#nyha'))
+        nyhaSel.select_by_value(NYHA)
+
+        driver.find_element_by_css_selector('#beta-blockers-yes' if BB else '#beta-blockers-no').click()
+        driver.find_element_by_css_selector('#ace-yes' if ACE else '#ace-no' ).click()
+        driver.find_element_by_css_selector('#ejection-fraction').send_keys(EJF)
+        driver.find_element_by_css_selector('#creatinine').send_keys(CRT)
+        driver.find_element_by_css_selector('#bp').send_keys(BPSYS)
+        driver.find_element_by_css_selector('#bmi').send_keys(BMI)
+
+        return grabResultsMAGGIC(driver)
+
+
+    return ["","",""]
+
+
+def grabResultsMAGGIC(driver):
+
+    driver.find_element_by_css_selector('#calculate').click()
+
+    try:
+        waiter  = WebDriverWait(driver, 15).until( #TIMEOUT SET TO 15 SECONDS
+            ec.visibility_of_element_located(
+                (By.CSS_SELECTOR, '#score-result')
+            )
+        )
+
+        resulty = []
+        scoresToGrab = ['#score-result', '#risk-1-result', '#risk-3-result']
+
+        for score in scoresToGrab:
+            tempy = driver.find_element_by_css_selector(score)
+            r = re.sub("[^0-9\-\.]","",tempy.text)
+            resulty.append(r)
+
+        return resulty
+
+
+    except:
+        #TIMEOUT, WILL RETURN NOTHING EVEN IF SOMETHING EVENTUALLY LOADS
+        print("TIMEOUT")
+        return ["","",""]
+
+
+
+
+################################################################################
+################################################################################
 ############################## SHF #############################################
 def renderScoresSHF(datas):
     os.startfile(SHF)
@@ -261,232 +411,6 @@ def grabResultsSHF():
 
     #print("Y1: " + results[0] + " Y2: " + results[1] + " Y3: " + results[2])
     return results
-
-
-############################# MAGGIC ###########################################
-def WTH(x):
-    return {
-        1: 0,
-        2: 2,
-        3: 6,
-        4: 8
-    }.get(x, 0)
-
-def renderScoresMAGGIC(datas):
-    driver = webdriver.Firefox() #SWITCH TO: Chrome() IF NEEDED
-    driver.get(MAGGIC)
-
-    #CLICK THE ACCEPT BUTTON: #accept-terms
-    driver.find_element_by_css_selector('#accept-terms').click()
-
-
-    rows = datas.shape[0]
-    scores = []
-    Y1 = []
-    Y3 = []
-
-############## CHANGE FROM ROWS IF NEEDED
-    for i in range(rows):
-
-        res = parseMAGGIC(driver,
-                          str(datas['Age'][i]),
-                          (datas['Gender'][i] - 1),
-                          datas['DIAB'][i],
-                          datas['COPD'][i],
-                          (0 if datas['SMOKING'][i] < 1 else 1),
-                          str(WTH(datas['NYHA'][i])),
-                          datas['BET'][i],
-                          datas['ACE'][i],
-                          str(datas['EjF'][i]),
-                          str(datas['CRT'][i] * 88.4),
-                          str(datas['BPSYS'][i]),
-                          str(datas['BMI'][i])
-                          )
-
-        print("MAGGIC: " + res[0] + " Y1: " + res[1] + " Y3: " + res[2])
-
-        scores.append(res[0])
-        Y1.append(res[1])
-        Y3.append(res[2])
-
-
-
-    driver.quit()
-    if (len(scores) != rows):
-        for i in range (rows - len(scores)):
-            scores.append("")
-            Y1.append("")
-            Y3.append("")
-
-    datas["MAGGIC"] = scores
-    datas["Y1"] = Y1
-    datas["Y3"] = Y3
-
-
-def parseMAGGIC(driver, AGE, SEX, DIAB, COPD, SMOKE, NYHA, BB, ACE, EJF, CRT, BPSYS, BMI):
-    driver.refresh() #SO IT DOESNT KEEP ADDING DATA TO THE PAGE
-
-    #this is lowkey a nightmare need to fix asp.
-    if (AGE != "nan" and SEX != "nan" and DIAB != "nan" and SMOKE != "nan"
-        and NYHA != "nan" and BB != "nan" and ACE != "nan" and EJF != "nan"
-        and CRT != "nan" and BPSYS != "nan" and BMI != "nan"):
-
-        driver.find_element_by_css_selector('#age').send_keys(AGE)
-
-        #MUST CLICK BEFORE ENTERING GENDER STUPID DROPDOWN ANIMATIONS
-        driver.find_element_by_css_selector('#diabetic-yes' if DIAB else '#diabetic-no').click()
-        time.sleep(.25)
-
-        sexy = Select(driver.find_element_by_css_selector('#gender'))
-        sexy.select_by_value('1' if SEX else '0')
-
-        driver.find_element_by_css_selector('#copd-yes' if COPD else '#copd-no').click()
-        ########## ALL YESS SINCE NO CLOUMN IN DATA #####################
-        driver.find_element_by_css_selector('#heart-failure-yes').click()
-        #################################################################
-        driver.find_element_by_css_selector('#smoker-yes' if SMOKE else '#smoker-no' ).click()
-
-        nyhaSel = Select(driver.find_element_by_css_selector('#nyha'))
-        nyhaSel.select_by_value(NYHA)
-
-        driver.find_element_by_css_selector('#beta-blockers-yes' if BB else '#beta-blockers-no').click()
-        driver.find_element_by_css_selector('#ace-yes' if ACE else '#ace-no' ).click()
-        driver.find_element_by_css_selector('#ejection-fraction').send_keys(EJF)
-        driver.find_element_by_css_selector('#creatinine').send_keys(CRT)
-        driver.find_element_by_css_selector('#bp').send_keys(BPSYS)
-        driver.find_element_by_css_selector('#bmi').send_keys(BMI)
-
-        return grabResultsMAGGIC(driver)
-
-
-    return ["","",""]
-
-
-def grabResultsMAGGIC(driver):
-
-    driver.find_element_by_css_selector('#calculate').click()
-
-    try:
-        waiter  = WebDriverWait(driver, 15).until( #TIMEOUT SET TO 15 SECONDS
-            ec.visibility_of_element_located(
-                (By.CSS_SELECTOR, '#score-result')
-            )
-        )
-
-        resulty = []
-        scoresToGrab = ['#score-result', '#risk-1-result', '#risk-3-result']
-
-        for score in scoresToGrab:
-            tempy = driver.find_element_by_css_selector(score)
-            r = re.sub("[^0-9\-\.]","",tempy.text)
-            resulty.append(r)
-
-        return resulty
-
-
-    except:
-        #TIMEOUT, WILL RETURN NOTHING EVEN IF SOMETHING EVENTUALLY LOADS
-        print("TIMEOUT")
-        return ["","",""]
-
-
-
-
-
-
-
-############################## GWTG ############################################
-def renderScoresGWTG(datas):
-    driver = webdriver.Firefox() #SWITCH TO: Chrome() IF NEEDED
-    driver.get(GWTG)
-
-    rows = datas.shape[0]
-    results = []
-
-################ NUMBER OF TIMES TO RUN, CHANGE ROWS TO SOME OTHER NUM FOR TESTS
-    for i in range(rows):
-        res = parseGWTG(driver, str(datas['BPSYS'][i]),
-                                   str(datas['BUN'][i]),
-                                   str(datas['SOD'][i]),
-                                   str(datas['Age'][i]),
-                                   str(datas['HR'][i]),
-                                   datas['COPD'][i],
-                                   (datas['Race'][i] - 1)
-                        )
-
-        print("GWTG: " + res)
-        results.append(res)
-
-
-
-    driver.quit()
-    if (len(results) != rows):
-        for i in range (rows - len(results)):
-            results.append("")
-
-    datas["GWTG"] = results
-
-def grabResultsGWTG(driver):
-    try:
-        waiter  = WebDriverWait(driver, 15).until( #TIMEOUT SET TO 15 SECONDS
-            ec.visibility_of_element_located(
-                (By.CSS_SELECTOR, 'div.result:nth-child(1) > h2:nth-child(1)')
-            )
-        )
-
-
-        elm = driver.find_element_by_css_selector('div.result:nth-child(1) > h2:nth-child(1)')
-        resulty = re.sub("[^0-9\-]","",elm.text)
-
-        return resulty
-
-
-    except:
-        #TIMEOUT, WILL RETURN NOTHING EVEN IF SOMETHING EVENTUALLY LOADS
-        print("TIMEOUT")
-        return ""
-
-
-def parseGWTG(driver, BPSYS, BUN, SOD, AGE, HR, COPD, BLACK):
-    driver.refresh() #SO IT DOESNT KEEP ADDING DATA TO THE PAGE
-
-    if (BPSYS != "nan" and BUN != "nan" and SOD != "nan" and AGE != "nan" and HR != "nan"):
-        driver.find_element_by_id("input_sbp").send_keys(BPSYS)
-        driver.find_element_by_id("input_bun").send_keys(BUN)
-        driver.find_element_by_id("input_na").send_keys(SOD)
-        driver.find_element_by_id("input_age").send_keys(AGE)
-        driver.find_element_by_id("input_hr").send_keys(HR)
-
-        #COPD DEFAULTS TO NO
-        copdBtn = driver.find_element_by_css_selector('#copd > div:nth-child(1)')
-
-        if COPD:
-            copdBtn = driver.find_element_by_css_selector('#copd > div:nth-child(2)')
-
-        driver.execute_script("arguments[0].scrollIntoView();", copdBtn)
-        ActionChains(driver).move_to_element(copdBtn).click().perform()
-
-
-
-        #BLACK DEFAULTS TO NO
-        blackBtn = driver.find_element_by_css_selector('#black > div:nth-child(1)')
-
-        if BLACK:
-            blackBtn = driver.find_element_by_css_selector('#black > div:nth-child(2)')
-
-
-        driver.execute_script("arguments[0].scrollIntoView();", blackBtn)
-        ActionChains(driver).move_to_element(blackBtn).click().perform()
-
-        return grabResultsGWTG(driver)
-
-
-    return ""
-
-
-
-
-
 
 if __name__ == "__main__":
     main()
