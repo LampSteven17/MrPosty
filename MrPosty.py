@@ -24,7 +24,7 @@ FILENAME = "ESCAPEAllDataSingleValue.csv"
 
 # PUT DRIVER FOR BOWSER ON COMPUTER HERE #######################################
 # FIREFOX (DEFAULT INCLUDED IN REPO)
-DRIVER = webdriver.Firefox() #DRIVER = webdriver.Firefox(executable_path=r'\my\path\to\geckodriver')
+DRIVER = webdriver.Firefox()#executable_path=r'\my\path\to\geckodriver')
 # CHOOSE ONLY 1, FIREFOX OR CHROME
 # CHROME
 #DRIVER = webdriver.Chrome(executable_path=r'\my\path\to\chromedriver')
@@ -64,8 +64,8 @@ def main():
     DRIVER.quit()
 # END OF SELENIUM OPS ##########################################################
 
-# BEGIN APP-BASED OPS#########################################################
-#####UNCOMMENT FOR SHF##########################################################
+# BEGIN APP-BASED OPS ##########################################################
+# UNCOMMENT FOR SHF  ###########################################################
     #SHF.renderScores(daty) #extra touchy
 # ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 
