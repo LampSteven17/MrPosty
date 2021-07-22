@@ -2157,3 +2157,322 @@ JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 
 JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
 JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
 1626970149366	Marionette	INFO	Stopped listening on port 57125
+1626972127626	geckodriver	INFO	Listening on 127.0.0.1:57750
+1626972130730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileBBXJ6J"
+1626972131471	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileBBXJ6J\\search.json.mozlz4", (void 0)))
+1626972133756	Marionette	INFO	Listening on port 57759
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900D6,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
+
+1626972133932	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626972143024	Marionette	INFO	Stopped listening on port 57759
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626972393929	geckodriver	INFO	Listening on 127.0.0.1:57907
+1626972397037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilemA4BJy"
+1626972397729	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilemA4BJy\\search.json.mozlz4", (void 0)))
+1626972400064	Marionette	INFO	Listening on port 57915
+1626972400219	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626972420158	Marionette	INFO	Stopped listening on port 57915
+1626972439804	geckodriver	INFO	Listening on 127.0.0.1:58104
+1626972442919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileIOYaln"
+1626972443599	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileIOYaln\\search.json.mozlz4", (void 0)))
+1626972445963	Marionette	INFO	Listening on port 58113
+1626972446095	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626972477400	Marionette	INFO	Stopped listening on port 58113
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626972548937	geckodriver	INFO	Listening on 127.0.0.1:58405
+1626972552042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilepV2m2E"
+1626972552649	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilepV2m2E\\search.json.mozlz4", (void 0)))
+1626972554889	Marionette	INFO	Listening on port 58413
+1626972555234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626972570475	Marionette	INFO	Stopped listening on port 58413
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626972582179	geckodriver	INFO	Listening on 127.0.0.1:58535
+1626972585278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilemRyiLR"
+1626972586076	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilemRyiLR\\search.json.mozlz4", (void 0)))
+1626972588698	Marionette	INFO	Listening on port 58544
+1626972588998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+1626972608035	Marionette	INFO	Stopped listening on port 58544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626972620171	geckodriver	INFO	Listening on 127.0.0.1:58666
+1626972623278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilekShCtC"
+1626972623811	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilekShCtC\\search.json.mozlz4", (void 0)))
+1626972626078	Marionette	INFO	Listening on port 58674
+1626972626493	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 333 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+1626972656734	Marionette	INFO	Stopped listening on port 58674
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626972700630	geckodriver	INFO	Listening on 127.0.0.1:58944
+1626972703727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile83cjzg"
+1626972704438	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile83cjzg\\search.json.mozlz4", (void 0)))
+1626972706607	Marionette	INFO	Listening on port 58952
+1626972706914	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+1626972737557	Marionette	INFO	Stopped listening on port 58952
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626972895759	geckodriver	INFO	Listening on 127.0.0.1:59222
+1626972898878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileHXK9Vb"
+1626972899506	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileHXK9Vb\\search.json.mozlz4", (void 0)))
+1626972902033	Marionette	INFO	Listening on port 59230
+1626972902095	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626972958711	Marionette	INFO	Stopped listening on port 59230
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626973049509	geckodriver	INFO	Listening on 127.0.0.1:59393
+1626973052612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilebq9PqK"
+1626973053114	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilebq9PqK\\search.json.mozlz4", (void 0)))
+1626973055551	Marionette	INFO	Listening on port 59402
+1626973055811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1626973087687	Marionette	INFO	Stopped listening on port 59402
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626973694934	geckodriver	INFO	Listening on 127.0.0.1:59724
+1626973698018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile0yJ2VT"
+1626973698759	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile0yJ2VT\\search.json.mozlz4", (void 0)))
+1626973701167	Marionette	INFO	Listening on port 59732
+1626973701225	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1626973731340	Marionette	INFO	Stopped listening on port 59732
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626973768329	geckodriver	INFO	Listening on 127.0.0.1:59862
+1626973771429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileXkKpA8"
+1626973772091	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileXkKpA8\\search.json.mozlz4", (void 0)))
+1626973774557	Marionette	INFO	Listening on port 59871
+1626973774604	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626973808533	Marionette	INFO	Stopped listening on port 59871
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626973954915	geckodriver	INFO	Listening on 127.0.0.1:60143
+1626973957984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilen95Wwf"
+1626973958514	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilen95Wwf\\search.json.mozlz4", (void 0)))
+1626973960911	Marionette	INFO	Listening on port 60151
+1626973961161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626974003815	Marionette	INFO	Stopped listening on port 60151
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626974029232	geckodriver	INFO	Listening on 127.0.0.1:60418
+1626974032323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile6OkJQh"
+1626974032890	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile6OkJQh\\search.json.mozlz4", (void 0)))
+1626974035261	Marionette	INFO	Listening on port 60426
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900D6,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
+
+1626974035553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626974079378	Marionette	INFO	Stopped listening on port 60426
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626974125674	geckodriver	INFO	Listening on 127.0.0.1:60686
+1626974128785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileDFrr7h"
+1626974129480	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileDFrr7h\\search.json.mozlz4", (void 0)))
+1626974131688	Marionette	INFO	Listening on port 60695
+[Child 13820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1626974131977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626974334703	Marionette	INFO	Stopped listening on port 60695
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -9,6 +9,7 @@ from selenium import webdriver
 
 import GWTG
 import MAGGIC
+import ADHERE
 
 # UNCOMMENT FOR SHF APPPLICATION ###############################################
 #import SHF
@@ -23,7 +24,7 @@ FILENAME = "ESCAPEAllDataSingleValue.csv"
 
 # PUT DRIVER FOR BOWSER ON COMPUTER HERE #######################################
 # FIREFOX (DEFAULT INCLUDED IN REPO)
-DRIVER = webdriver.Firefox(executable_path=r'\my\path\to\geckodriver')
+DRIVER = webdriver.Firefox() #DRIVER = webdriver.Firefox(executable_path=r'\my\path\to\geckodriver')
 # CHOOSE ONLY 1, FIREFOX OR CHROME
 # CHROME
 #DRIVER = webdriver.Chrome(executable_path=r'\my\path\to\chromedriver')
@@ -34,6 +35,7 @@ DRIVER = webdriver.Firefox(executable_path=r'\my\path\to\geckodriver')
 # URL's, SHOULDNT NEED TO BE CHANGED UNLESS URL CHANGES ########################
 gwtgURL = "https://www.mdcalc.com/gwtg-heart-failure-risk-score"
 maggicURL = "http://www.heartfailurerisk.org/"
+adhereURL = "https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm"
 
 
 
@@ -48,11 +50,15 @@ def main():
     daty = getDataFromCsv()
 
 # ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
-#####UNCOMMENT FOR GWTG#########################################################
+# UNCOMMENT FOR GWTG ###########################################################
     GWTG.renderScores(DRIVER, daty, gwtgURL) # DEFAULT SET TO RUN ON GWTG
 
-#####UNCOMMENT FOR MAGGIC#######################################################
+# UNCOMMENT FOR MAGGIC #########################################################
     #MAGGIC.renderScores(DRIVER, daty, maggicURL)
+
+# UNCOMMENT FOR ADHERE #########################################################
+    #ADHERE.renderScores(DRIVER, daty, adhereURL)
+
 
 
     DRIVER.quit()
@@ -64,7 +70,7 @@ def main():
 # ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 
     print(daty)
-    daty.to_csv("OUTFILE.csv", index = False)#SO IT DOESNT PRINT A COULMN WITH 1-8000
+    daty.to_csv("OUTFILE.csv", index = False)
 
 def getDataFromCsv():
     frame = pd.read_csv(FILENAME, header = 0)
