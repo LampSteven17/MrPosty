@@ -1,12 +1,24 @@
+import pandas as pd
+import time
+import re
+import numpy as np
+from selenium import webdriver
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.support.ui import Select
+
 ############################## GWTG ############################################
-def renderScoresGWTG(driver, datas, url):
-    driver.get(GWTG)
+def renderScores(driver, datas, url):
+    driver.get(url)
 
     rows = datas.shape[0]
     results = []
 
 ################ NUMBER OF TIMES TO RUN, CHANGE ROWS TO SOME OTHER NUM FOR TESTS
-    for i in range(10):
+    for i in range(rows):
         res = parseGWTG(driver, str(datas['BPSYS'][i]),
                                    str(datas['BUN'][i]),
                                    str(datas['SOD'][i]),
@@ -20,8 +32,6 @@ def renderScoresGWTG(driver, datas, url):
         results.append(res)
 
 
-
-    driver.quit()
     if (len(results) != rows):
         for i in range (rows - len(results)):
             results.append("")

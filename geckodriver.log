@@ -1843,3 +1843,317 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1626968065829	geckodriver	INFO	Listening on 127.0.0.1:54119
+1626968068940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileYYvqYu"
+1626968069432	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileYYvqYu\\search.json.mozlz4", (void 0)))
+1626968071805	Marionette	INFO	Listening on port 54127
+1626968072125	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626968081272	Marionette	INFO	Stopped listening on port 54127
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626968096849	geckodriver	INFO	Listening on 127.0.0.1:54181
+1626968099948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileYRjPED"
+1626968100536	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileYRjPED\\search.json.mozlz4", (void 0)))
+1626968102858	Marionette	INFO	Listening on port 54189
+1626968103175	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626968148011	Marionette	INFO	Stopped listening on port 54189
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626968202888	geckodriver	INFO	Listening on 127.0.0.1:54306
+1626968205986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileLNUAPY"
+1626968206542	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileLNUAPY\\search.json.mozlz4", (void 0)))
+1626968208756	Marionette	INFO	Listening on port 54315
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1626968209180	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:324:29
+
+[Child 16836, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1626968239374	Marionette	INFO	Stopped listening on port 54315
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626968349342	geckodriver	INFO	Listening on 127.0.0.1:54572
+1626968352433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilex3Muez"
+1626968352970	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilex3Muez\\search.json.mozlz4", (void 0)))
+1626968355325	Marionette	INFO	Listening on port 54580
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900D6,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
+
+1626968355668	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626968391901	Marionette	INFO	Stopped listening on port 54580
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626968631851	geckodriver	INFO	Listening on 127.0.0.1:54859
+1626968634936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile4jZvp0"
+1626968635475	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile4jZvp0\\search.json.mozlz4", (void 0)))
+1626968637864	Marionette	INFO	Listening on port 54867
+1626968638166	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 333 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626968675023	Marionette	INFO	Stopped listening on port 54867
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626968703885	geckodriver	INFO	Listening on 127.0.0.1:55122
+1626968706987	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile271LDU"
+1626968707582	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile271LDU\\search.json.mozlz4", (void 0)))
+1626968710083	Marionette	INFO	Listening on port 55130
+1626968710187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626968746980	Marionette	INFO	Stopped listening on port 55130
+1626968820606	geckodriver	INFO	Listening on 127.0.0.1:55403
+1626968823677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile6C2iL0"
+1626968824409	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofile6C2iL0\\search.json.mozlz4", (void 0)))
+1626968826708	Marionette	INFO	Listening on port 55414
+1626968826845	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1626968996668	Marionette	INFO	Stopped listening on port 55414
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969011092	geckodriver	INFO	Listening on 127.0.0.1:55968
+1626969014196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofiledt41y6"
+1626969014875	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofiledt41y6\\search.json.mozlz4", (void 0)))
+1626969017292	Marionette	INFO	Listening on port 55976
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390147,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1626969018590	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626969093712	Marionette	INFO	Stopped listening on port 55976
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969115142	geckodriver	INFO	Listening on 127.0.0.1:56316
+1626969118237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilevh4LRG"
+1626969118853	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilevh4LRG\\search.json.mozlz4", (void 0)))
+1626969121017	Marionette	INFO	Listening on port 56325
+1626969121436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 333 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 331 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626969199228	Marionette	INFO	Stopped listening on port 56325
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969302792	geckodriver	INFO	Listening on 127.0.0.1:56677
+1626969305906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileJQA0in"
+1626969306587	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileJQA0in\\search.json.mozlz4", (void 0)))
+1626969308805	Marionette	INFO	Listening on port 56685
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1626969309089	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626969309115	Marionette	INFO	Stopped listening on port 56685
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969338389	geckodriver	INFO	Listening on 127.0.0.1:56724
+1626969341505	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilepeCRbU"
+1626969342089	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilepeCRbU\\search.json.mozlz4", (void 0)))
+1626969344311	Marionette	INFO	Listening on port 56733
+1626969344718	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626969349778	Marionette	INFO	Stopped listening on port 56733
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969417188	geckodriver	INFO	Listening on 127.0.0.1:56795
+1626969420279	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilev76yVl"
+1626969420913	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilev76yVl\\search.json.mozlz4", (void 0)))
+1626969423128	Marionette	INFO	Listening on port 56803
+1626969423512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626969423584	Marionette	INFO	Stopped listening on port 56803
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969459895	geckodriver	INFO	Listening on 127.0.0.1:56854
+1626969462955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilef8rnM9"
+1626969463709	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilef8rnM9\\search.json.mozlz4", (void 0)))
+1626969465860	Marionette	INFO	Listening on port 56863
+1626969466153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626969466181	Marionette	INFO	Stopped listening on port 56863
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969488361	geckodriver	INFO	Listening on 127.0.0.1:56899
+1626969491480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileadW9A7"
+1626969492171	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileadW9A7\\search.json.mozlz4", (void 0)))
+1626969494326	Marionette	INFO	Listening on port 56907
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1626969494705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626969494757	Marionette	INFO	Stopped listening on port 56907
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969961152	geckodriver	INFO	Listening on 127.0.0.1:57010
+1626969964265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileo4AuYL"
+1626969964820	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileo4AuYL\\search.json.mozlz4", (void 0)))
+1626969967220	Marionette	INFO	Listening on port 57018
+1626969967491	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626969967563	Marionette	INFO	Stopped listening on port 57018
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626969994770	geckodriver	INFO	Listening on 127.0.0.1:57057
+1626969997853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilegAm6Xq"
+1626969998458	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilegAm6Xq\\search.json.mozlz4", (void 0)))
+1626970000909	Marionette	INFO	Listening on port 57065
+1626970001027	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10244, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1626970001056	Marionette	INFO	Stopped listening on port 57065
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626970125571	geckodriver	INFO	Listening on 127.0.0.1:57117
+1626970128668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileg42BKy"
+1626970129304	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileg42BKy\\search.json.mozlz4", (void 0)))
+1626970134907	Marionette	INFO	Listening on port 57125
+1626970135040	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/gwtg-heart-failure-risk-score line 332 > injectedScript, line 1: ReferenceError: hj is not defined
+1626970149366	Marionette	INFO	Stopped listening on port 57125
