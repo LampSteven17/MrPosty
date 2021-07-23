@@ -37,7 +37,7 @@ def renderScores(datas):
 
 
 ############## CHANGE FROM ROWS IF NEEDED
-    for i in range(5):
+    for i in range(rows):
         win = ahk.find_window(title=b'Seattle Heart Failure Model Calculator')
 
         res = parseSHF(str(datas['Age'][i]),
