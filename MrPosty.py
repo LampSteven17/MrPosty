@@ -51,13 +51,13 @@ def main():
 
 # ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 # UNCOMMENT FOR GWTG ###########################################################
-    GWTG.renderScores(DRIVER, daty, gwtgURL) # DEFAULT SET TO RUN ON GWTG
+    #GWTG.renderScores(DRIVER, daty, gwtgURL) # DEFAULT SET TO RUN ON GWTG
 
 # UNCOMMENT FOR MAGGIC #########################################################
     #MAGGIC.renderScores(DRIVER, daty, maggicURL)
 
 # UNCOMMENT FOR ADHERE #########################################################
-    #ADHERE.renderScores(DRIVER, daty, adhereURL)
+    ADHERE.renderScores(DRIVER, daty, adhereURL)
 
 
 

@@ -2476,3 +2476,661 @@ JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-natio
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1627580529087	geckodriver	INFO	Listening on 127.0.0.1:52080
+1627580532122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileDFj8Wb"
+1627580532508	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileDFj8Wb\\search.json.mozlz4", (void 0)))
+1627580534712	Marionette	INFO	Listening on port 52089
+1627580534794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 338 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 338 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+[Child 10252, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+[Child 10252, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1627581081616	Marionette	INFO	Stopped listening on port 52089
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627581149742	geckodriver	INFO	Listening on 127.0.0.1:54836
+1627581152800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofiledTVcHm"
+1627581153179	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofiledTVcHm\\search.json.mozlz4", (void 0)))
+1627581155250	Marionette	INFO	Listening on port 54845
+1627581155485	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 338 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 338 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 338 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+1627582213513	Marionette	INFO	Stopped listening on port 54845
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627582501535	geckodriver	INFO	Listening on 127.0.0.1:60447
+1627582504602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileWtwbJk"
+1627582504920	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofileWtwbJk\\search.json.mozlz4", (void 0)))
+1627582506930	Marionette	INFO	Listening on port 60456
+1627582507266	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource:///modules/sessionstore/ContentSessionStore.jsm, line 477: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource:///modules/sessionstore/ContentSessionStore.jsm, line 467: Error: TelemetryStopwatch: key "FX_SESSION_RESTORE_CONTENT_COLLECT_DATA_MS" was already initialized
+JavaScript error: resource:///modules/sessionstore/ContentSessionStore.jsm, line 473: Error: TelemetryStopwatch: finishing nonexisting stopwatch. Histogram: "FX_SESSION_RESTORE_CONTENT_COLLECT_DATA_MS", key: "historychange"
+1627584213168	Marionette	INFO	Stopped listening on port 60456
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627584247747	geckodriver	INFO	Listening on 127.0.0.1:52012
+1627584250784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilex0GrCY"
+1627584251116	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\srlam\\AppData\\Local\\Temp\\rust_mozprofilex0GrCY\\search.json.mozlz4", (void 0)))
+1627584253128	Marionette	INFO	Listening on port 52021
+1627584253455	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 336 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.mdcalc.com/acute-decompensated-heart-failure-national-registry-adhere-algorithm line 338 > injectedScript, line 1: ReferenceError: hj is not defined

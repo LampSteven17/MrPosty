@@ -12,18 +12,21 @@ from selenium.webdriver.support.ui import Select
 
 ############################## ADHERE ##########################################
 def renderScores(driver, datas, url):
+
     driver.get(url)
 
     rows = datas.shape[0]
     results = []
 
-################ NUMBER OF TIMES TO RUN, CHANGE ROWS TO SOME OTHER NUM FOR TESTS
+        # NUMBER OF TIMES TO RUN, CHANGE ROWS TO SOME OTHER NUM FOR TESTS
     for i in range(rows):
-        res = parseADHERE(driver, datas['BUN'][i], datas['BPSYS'][i], datas['CRT'][i])
+        try:
+            res = parseADHERE(driver, datas['BUN'][i], datas['BPSYS'][i], datas['CRT'][i])
+        except:
+            print("TIMEOUT BUG")
 
         print("ADHERE: " + res)
         results.append(res)
-
 
     if (len(results) != rows):
         for i in range (rows - len(results)):
